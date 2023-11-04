@@ -1,0 +1,156 @@
+.brand-logo img {
+    width: 150px; /* Set the desired width */
+    height: 150px; /* Automatically adjust the height to maintain the aspect ratio */
+    padding-bottom: 80px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('WALLPAPER.jpg'); /* Replace 'background.jpg' with your background image */
+    background-size: cover;
+    color: #fff;
+    background-position: center;
+}
+.nav-set{
+    background-color: transparent;
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove box-shadow */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.sideme ul{
+    background: transparent;
+    text-align:left;
+    box-shadow: none;
+}
+.side-color a li{
+color: azure;
+}
+.side-style li a {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.side-style li a:hover {
+    color: blue /* Change color on hover */
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media (max-width: 1000px) {
+    .footer {
+        position: relative;
+    }
+}
+#digital-clock {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: azure;
+}
+@media (max-width: 1000px) {
+    #digital-clock {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+        background-color: transparent;
+    }
+}
+
+/* default css */
+
+/* css for each tab */
+.extra-label{
+    
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.proct{
+    display: flex
+}
+.page {
+    height: 100vh;
+    display: flex;
+}
+.proj{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#myModal1, #myModal2,#myModal3,#myModal4,#myModal5,#myModal6 {
+    width: 80vw; /* Set the initial width of the modal to 80% of the viewport width */
+    
+}
+/* Custom styles for the modal */
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0); /* Text color inside the modal (set to purple) */
+}
+
+/* Custom styles for modal close button */
+.modal-close {
+    color: rgb(2, 2, 2); /* Text color for modal close button */
+}
+
+/* Additional styles for the transparent card */
+.transparent-card {
+    background-color: transparent; /* Set the card background color to transparent */
+    color: rgba(0, 0, 0, 0.5); /* Text color inside the transparent card with 50% opacity (semi-transparent black) */
+}
+.card.transparent {
+    background-color: transparent;
+    border: none;
+    transition: all 0.3s ease; /* Add transition for smooth animation */
+}
+
+/* CSS for the hover effect */
+.card.transparent:hover {
+    transform: scale(1.1); /* Enlarge the card by 10% */
+    filter: brightness(1.2); /* Add glow effect by increasing brightness */
+    opacity: 0.8; /* Reduce opacity to 80% when hovered */
+}
+
+
+
+
+
+.modal-content {
+    background-color: #fff; /* Set the background color for the modal content */
+    /* Other modal content styles */
+}
+.modal-content {
+    background-color:transparent;
+    /* Other modal content styles */
+}
+
+.slides li {
+    cursor: pointer;
+}
+
+.slide-content {
+    height: auto;
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+.expanded-content {
+    height: 400px; /* Set the desired expanded height */
+}
+
+.expanded-content img {
+    width: 100%; /* Make the image fill the expanded content */
+    height: auto;
+}

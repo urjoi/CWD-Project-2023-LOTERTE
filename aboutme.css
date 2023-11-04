@@ -1,0 +1,105 @@
+@media only screen and (max-width: 480px) {
+    /* CSS styles for smaller screens (e.g., smartphones) */
+}
+
+
+.brand-logo img {
+    width: 150px; /* Set the desired width */
+    height: 150px; /* Automatically adjust the height to maintain the aspect ratio */
+    padding-bottom: 80px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('WALLPAPER.jpg'); /* Replace 'background.jpg' with your background image */
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.nav-set{
+    background-color: transparent;
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove box-shadow */
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.sideme ul{
+    background: transparent;
+    text-align:left;
+    box-shadow: none;
+    
+
+}
+.side-style li a {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.side-style li a:hover {
+    color: blue /* Change color on hover */
+}
+.side-color a li{
+color: azure;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 1000px) {
+    .footer {
+        position: relative;
+    }
+}
+#digital-clock {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: azure;
+}
+@media (max-width: 1000px) {
+    #digital-clock {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+        background-color: transparent;
+    }
+}
+
+
+.about-us{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.page{
+    height: 100vh;
+    display: flex;
+    /* Semi-transparent background overlay */
+}
+.profile-picture-container {
+    width: 150px; /* Set the width and height of the circular container */
+    height: 150px;
+    border-radius: 50%; /* Make the container circular */
+    overflow: hidden; /* Hide overflowing content (in case the image is larger than the container) */
+    margin: 0 auto; /* Center the container */
+}
+
+.profile-picture {
+    width: 100%; /* Make the image fill the circular container */
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}

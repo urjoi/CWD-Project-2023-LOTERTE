@@ -1,0 +1,1947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+
+
+    <link rel="icon" href="wenz.png">
+
+    <script src="https://kit.fontawesome.com/c17cce7192.js" crossorigin="anonymous"></script>
+    <!--material icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--font awesome cdnjs-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>Projects</title>
+
+</head>
+<body>
+    <!--start default for each page-->
+<div class="default">
+    <div class="navbar-fixed">
+        <nav class="nav-set">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo">
+                        <img src="wenz.png" alt="logo">
+                    </a> 
+
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+
+                    <ul class="right hide-on-med-and-down">
+                        <li class="lib"><a class="" href="index.html">HOME</a></li>
+                        <li class="lib"><a class="" href="about.html">ABOUT</a></li>
+                        <li class="lib"><a class="" href="project.html">PROJECT</a></li>
+                        <li class="lib"><a class="" href="aboutme.html">ABOUT ME</a></li>
+                        <li class="lib"><a class="" href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+                
+    <style>
+            .side-style li a{
+                color: white;
+                font-size: 20px;
+            }
+    </style>
+                <div class="sideme">
+                    <ul class="sidenav"  id="mobile-demo"
+                    style="box-shadow: none;">
+                        <br><br>
+                        <div class="side-style">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="project.html">PROJECT</a></li>
+                            <li><a href="aboutme.html">ABOUT ME</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </div>
+                            
+                    </ul>
+                </div> 
+            </div>
+    <!--end default for each page-->        
+    <div class="extra-label">
+        <div class="proct">
+            <div class="container">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1>CWD PROJECTS</h1>
+                <div class="divider"></div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="proj">
+        <div class="page">
+            
+            <br><br>
+            <br><br></br>
+            <div class="container">
+                <div class="row">
+                    <!--1st modal-->
+                    <div class="grid-item col s12 m6 l4">
+                        <br><br><br><br>
+                        <div class="card transparent" id="myCard1">
+                            <div class="card-content">
+                                <span class="card-title center red-text text-lighten-2">TYPOGRAPHY</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Modal Structure -->
+                        <div id="myModal1" class="modal">
+                            <div class="modal-content">
+                                <h1 class ="red-text text-lighten-2 center"></h1>Typography</h1>
+    <div class = "divider"></div>
+
+    <div class = "container">
+<h3 class = "red-text text-lighten-2">Header</h3>
+<p>We provide some basic styling on header tags. In example, you can see
+    the 6 header tags' different sizes.</p>
+
+    <div class ="card-panel">
+        <h1>Heading h1</h1>
+        <h2>Heading h2</h2>
+        <h3>Heading h3</h3>
+        <h4>Heading h4</h4>
+        <h5>Heading h5</h5>
+        <h6>Heading h6</h6>
+    </div>
+    <div id="blockquote" class="section scrollspy">
+        <h3 class= " red-text text-lighten-2">Blockquotes</h3>
+        <p>
+        Blockquotes are mainly used to give emphasis to a quote or citation. 
+        You can also use these for some extra text hierarchy and emphasis.
+        </p>          
+        <blockquote>
+        This is an example quotation that uses the blockquote tag.
+        <br>Here is another line to make it look bigger.
+        </blockquote>
+        <pre><code class = "language-markup">
+            &lt;blockqoute>
+            This is an example quotation that uses the blockquote tag.
+            &lt;blockqoute>
+        </code></pre>
+    </div>
+    <div id="flow" class="section scrollspy">
+        <h3 class="red-text text-lighten-2">Flow Text</h3>
+        <a id="flow-toggle" class="btn waves-effect waves-light">Toggle flow-text</a>
+        <div id="flow-text-demo" class="card-panel">
+        <p class="flow-text">
+        One common flaw we've seen in many frameworks is a lack of support for truly responsive text. While elements on the page resize fluidly, text still resizes on a fixed basis. To ameliorate this problem, for text heavy pages, we've created a class that fluidly scales text size and line-height to optimize readability for the user. Line length stays between 45-80 characters and line height scales to be larger on smaller screens.</p>
+        <p class="flow-text">To see Flow Text in action, slowly resize your browser and watch the size of this text body change! Use the button above to toggle off/on flow-text to see the difference!</p>
+        </div>
+
+        <br>
+
+        <p>To use flow-text on a body of text, simply just add the class <code class="language-markup">flow-text</code> to a tag, see the code below.</p>
+        <pre><code class="language-markup">
+        &lt;p class="flow-text">;I am Flow Text&lt;/p>
+        </code></pre>
+    </div>
+    </div>
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--2nd modal-->
+                    <div class="grid-item col s12 m6 l4">
+                        <br><br><br><br>
+                        <div class="card transparent" id="myCard2">
+                            <div class="card-content">
+                                <span class="card-title center red-text text-lighten-2">TABLES</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Modal Structure -->
+                        <div id="myModal2" class="modal">
+                            <div class="modal-content">
+                                
+                                <h1 class = "red-text text-lighten-2 center">Table</h1>
+    <div class = "divider"></div>
+    <br>
+    <div class="">
+        <p>Tables are a nice way to organize a lot of data. We provide a few utility classes to help you style your table as easily as possible. In addition, to improve mobile experience, all tables on mobile-screen widths are centered automatically.
+        </p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Item Name</th>
+                    <th>Item Price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Alvin</td>
+                    <td>Eclair</td>
+                    <td>0.77</td>
+                </tr>
+                <tr>
+                    <td>Allan</td>
+                    <td>JellyBean</td>
+                    <td>0.17</td>
+                </tr>
+                <tr>
+                    <td>Jonathan</td>
+                    <td>Lollipop</td>
+                    <td>0.12</td>
+                </tr>
+            </tbody>
+        </table>
+
+<br>
+    <div>
+        <div class ="card-panel">
+            <pre class = "pink-text text-darken-2">
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Item Name&lt;/th&gt;
+            &lt;th&gt;Item Price&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Alvin&lt;/td&gt;
+            &lt;td&gt;Eclair&lt;/td&gt;
+            &lt;td&gt;$0.87&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Alan&lt;/td&gt;
+            &lt;td&gt;Jellybean&lt;/td&gt;
+            &lt;td&gt;$3.76&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Jonathan&lt;/td&gt;
+            &lt;td&gt;Lollipop&lt;/td&gt;
+            &lt;td&gt;$7.00&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+</pre>
+                </div>
+            </div>
+        <h3 class = "red-text text text-lighten-2">Striped Table</h3>
+        <p>Add class="striped" to the table tag for a striped table  </p>
+        <table class = "striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Item Name</th>
+                    <th>Item Price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Alvin</td>
+                    <td>Eclair</td>
+                    <td>0.77</td>
+                </tr>
+                <tr>
+                    <td>Allan</td>
+                    <td>JellyBean</td>
+                    <td>0.17</td>
+                </tr>
+                <tr>
+                    <td>Jonathan</td>
+                    <td>Lollipop</td>
+                    <td>0.12</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 class = "red-text text text-lighten-2">Highlight Table</h3>
+        <p>Add class="highlight" to the table tag for a highlight table.</p>
+
+        <table class = "highlight">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Item Name</th>
+                    <th>Item Price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Alvin</td>
+                    <td>Eclair</td>
+                    <td>0.77</td>
+                </tr>
+                <tr>
+                    <td>Allan</td>
+                    <td>JellyBean</td>
+                    <td>0.17</td>
+                </tr>
+                <tr>
+                    <td>Jonathan</td>
+                    <td>Lollipop</td>
+                    <td>0.12</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 class = "red-text text text-lighten-2">Centered Table</h3>
+        <p> Add class="centered" to the table tag to center align all the text in the table
+        </p>
+
+        <table class = "centered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Item Name</th>
+                    <th>Item Price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Alvin</td>
+                    <td>Eclair</td>
+                    <td>0.77</td>
+                </tr>
+                <tr>
+                    <td>Allan</td>
+                    <td>JellyBean</td>
+                    <td>0.17</td>
+                </tr>
+                <tr>
+                    <td>Jonathan</td>
+                    <td>Lollipop</td>
+                    <td>0.12</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 class = "red-text text text-lighten-2">Responsive Table</h3>
+        <p>Add class="responsive-table" to the table tag to make the table horizontally scrollable on smaller screen widths.
+        </p>
+        <table class = "responsive-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Item Name</th>
+                    <th>Item Price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Alvin</td>
+                    <td>Eclair</td>
+                    <td>0.77</td>
+                </tr>
+                <tr>
+                    <td>Allan</td>
+                    <td>JellyBean</td>
+                    <td>0.17</td>
+                </tr>
+                <tr>
+                    <td>Jonathan</td>
+                    <td>Lollipop</td>
+                    <td>0.12</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--3rd modal-->
+                    <div class="grid-item col s12 m6 l4">
+                        <br><br><br><br>
+                        <div class="card transparent" id="myCard3">
+                            <div class="card-content">
+                                <span class="card-title center red-text text-lighten-2">MEDIA</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Modal Structure -->
+                        <div id="myModal3" class="modal">
+                            <div class="modal-content">
+                                
+                                <h1 class = "red-text text-lighten-2 center">Media CSS</h1>
+    <div class = "divider"></div>
+    <div class = "container">
+        <h2 class = "red-text text-lighten-2">Images</h2>
+        <h5>
+            Images can be styled in different ways using Materialize
+        </h5>
+        <br>
+        <h4 class = "black-text ">Responsive images</h4>
+        <p class = "flow-text">
+            To make images resize responsively to page width, you can add the class responsive-img to your image tag. It will now have a max-width: 100% and height:auto.
+        </p>
+        <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="card-panel grey lighten-5 z-depth-1">
+              <div class="row valign-wrapper">
+                <div class="">
+                  <img src="aj.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                </div>
+                <div class="col s10">
+                  <span class="black-text">
+                    This is a square image. Add the "circle" class to it to make it appear circular.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+            <style>
+        .card2 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 650px;
+    height: auto;
+    overflow-x: auto;
+}
+</style>
+    <div class="card2">
+        <pre class = "pink-text text-darken-2">
+                &lt;div class="col s12 m8 offset-m2 l6 offset-l3"&gt;
+    &lt;div class="card-panel grey lighten-5 z-depth-1"&gt;
+        &lt;div class="row valign-wrapper"&gt;
+            &lt;div class="col s2"&gt;
+                &lt;img src="images/yuna.jpg" alt="" class="circle responsive-img"&gt; &lt;!-- notice the "circle" class --&gt;
+            &lt;/div&gt;
+            &lt;div class="col s10"&gt;
+                &lt;span class="black-text"&gt;
+                    This is a square image. Add the "circle" class to it to make it appear circular.
+                &lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+        </pre>
+
+        <br>
+    </div>
+    <br>
+    <div>
+        <h2 class="red-text text-lighten-2">Videos</h2>
+        <h5>
+            We provide a container for Embedded Videos that resizes them responsively.
+        </h5
+        >
+        <br>
+        <div>
+            <h4>Responsive Embeds</h4>
+            <h5>
+                To make your embeds responsive, merely wrap them with a containing div which has the class video-container
+            </h5>
+            <div class = "video-container">
+                <iframe width="735" height="413" src="https://www.youtube.com/embed/5A09nUfCs00" title="SRAM - LAB (CPP115)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+
+                </div>
+                <br>
+                <div class = "card2">
+                <pre class = "pink-text text-darken-2">
+    &lt;div class="video-container"&gt;
+    &lt;iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+                </pre>
+
+            </div>
+            <br>
+            <div> 
+                <h4>Responsive Videos</h4>
+                <div class = "responsive-video">
+                    <iframe width="735" height="413" src="https://www.youtube.com/embed/5A09nUfCs00" title="SRAM - LAB (CPP115)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <br>
+                <div class = "card2">
+    <pre class = "pink-text text-darken-2">
+    &lt;video class="responsive-video" controls&gt;
+    &lt;source src="movie.mp4" type="video/mp4"&gt;
+    &lt;/video&gt;
+
+                    </pre>
+                </div>              
+            </div>                
+            </div>           
+        </div>   
+    </div> 
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--4th modal-->
+                    <div class="grid-item col s12 m6 l4">
+                        <br><br><br><br>
+                        <div class="card transparent" id="myCard4">
+                            <div class="card-content">
+                                <span class="card-title center red-text text-lighten-2">NAVBAR</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Modal Structure -->
+                        <div id="myModal4" class="modal">
+                            <div class="modal-content">
+                                
+                                <div class="navbar-fixed">
+                                    <nav class = "purple lighten-2 nav-extended">
+                                        <div class = "container">
+                                            <div class="nav-wrapper">
+                                            <a href="https://fontawesome.com/search?o=r&m=free&f=classic" 
+                                            class="brand-logo center " target="_blank">
+                                                <i class="fa-brands fa-instagram fa-beat"></i>
+                                            </a>
+                                            <!-- side nav -->
+                                            <a href="" class="sidenav-trigger" 
+                                            data-target = "mobile-demo">
+                                                <i class="fa-solid fa-bars">
+                                                </i>
+                                            </a>
+                                            <ul id ="nav-mobile"class="right hide-on-med-and-down">
+                                            <li><a href="#">
+                                                <i class="fa-brands fa-x-twitter fa-beat"></i>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <i class="fa-brands fa-facebook fa-beat"></i>
+                                            </a></li>
+                                            <li class="active"><a href="#">
+                                                <i class="fa-solid fa-at"></i>
+                                                </a></li>
+                                            </ul>
+                                            </div>
+                                        </div>
+                                    </nav>
+                                    
+                                </div>
+                                <style>
+                                    .card {
+                                border: 1px solid rgb(255, 255, 255);
+                                border-radius: 5px;
+                                padding: 30px;
+                                width: auto;
+                                height:auto;
+                                overflow-x: auto;
+                            }
+                                </style>
+                                <h1 class = "red-text text-lighten-2 center">Navbar</h1>
+                                <div class = "divider"></div>
+                                <br>
+                            <div class = "container">
+                                <p class ="caption">
+                                        The navbar is fully contained by an HTML5 Nav tag. Inside a recommended container div, there are 2 main parts of the navbar. A logo or brand link, and the navigations links. You can align these links to the left or right.</p>
+                                    
+                                </div>
+                            <div class = "container">
+                                <h3 class = " red-text text-lighten-2">
+                                    Right Aligned Links
+                                </h3>
+                                <p>
+                                    To right align your navbar links, just add a right class to your &lt;ul&gt; that contains them.
+                                </p> 
+                                    <nav class = "purple">
+                                        <div class = "nav-wrapper">
+                                            <a href="https://www.facebook.com/Wenzxc/" class = "brand-logo" target="blank"> 
+                                                <i class="fa-regular fa-font-awesome fa-beat"></i>
+                                            </a>
+                                        </div>
+                                    </nav>
+                                    <div class>
+                                    <br>
+                                        <div class = "card">
+                                            <pre class ="blue-text text-darken-3" >
+                                &lt;nav&gt;
+                                    &lt;div class="nav-wrapper"&gt;
+                                    &lt;a href="#" class="brand-logo"&gt;Logo&lt;/a&gt;
+                                    &lt;ul id="nav-mobile" class="right hide-on-med-and-down"&gt;
+                                    &lt;li&gt;&lt;a href="sass.html"&gt;Sass&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href="badges.html"&gt;Components&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href="collapsible.html"&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/div&gt;
+                                &lt;/nav&gt;
+                            
+                                            </pre>
+                                        </div>
+                                    </div>
+                                        <br><br>
+                                        <h3 class = "red-text text-lighten-2">Left Aligned Links</h3>
+                                        <p>
+                                            To left align your navbar links, just add a left class to your &lt; ul &gt; that contains them.
+                                        </p>
+                                        <nav class = "purple">
+                                            <div class="nav-wrapper">
+                                                <a href="#" class="brand-logo right" target ="_blank">
+                                                    <i class="fa-solid fa-bars fa-beat"></i>
+                                                </a>
+                                                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                                                <li><a href="#">
+                                                    <i class="fa-solid fa-image fa-beat"></i>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <i class="fa-solid fa-envelope fa-beat"></i>
+                                                </a></li>
+                                                <li><a href="#">
+                                                    <i class="fa-solid fa-code fa-beat"></i>
+                                                </a></li>
+                                                </ul>
+                                            </div>
+                                        </nav> 
+                                    </div>
+                                    <br>
+                                    <div class = "container">
+                                        <div class ="card">
+                                            <pre class="green-text text-darken-3">
+                                &lt;nav&gt;
+                                    &lt;div class="nav-wrapper"&gt;
+                                &lt;a href="#" class="brand-logo right"&gt;Logo&lt;/a&gt;
+                                &lt;ul id="nav-mobile" class="left hide-on-med-and-down"&gt;
+                                  &lt;li&gt;&lt;a href="sass.html"&gt;Sass&lt;/a&gt;&lt;/li&gt;
+                                  &lt;li&gt;&lt;a href="badges.html"&gt;Components&lt;/a&gt;&lt;/li&gt;
+                                  &lt;li&gt;&lt;a href="collapsible.html"&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                              &lt;/div&gt;
+                            &lt;/nav&gt;
+                            
+                                            </pre>
+                                        </div>
+                                    </div>
+                                    <br><br>
+                                   <div class = "container">
+                            <h3 class = "red-text text-lighten-2">Centering the Logo</h3>
+                                        <p>
+                                            The logo will center itself on medium and down screens, but if you want the logo to always be centered, add the center class to your &lt;a class="brand-logo" &gt;. You will have to make sure yourself that links do not overlap if you use this.
+                                        </p>
+                                        <nav class = "purple">
+                                            <div class="nav-wrapper">
+                                                <a href="#" class="brand-logo center">
+                                                    <i class="fa-solid fa-palette fa-beat"></i>
+                                                </a>
+                                                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                                                  <li><a href="#">
+                                                    <i class="fa-solid fa-business-time fa-beat"></i>
+                                                  </a></li>
+                                                  <li><a href="#">
+                                                    <i class="fa-solid fa-gamepad fa-beat"></i>
+                                                  </a></li>
+                                                  <li><a href="#">
+                                                    <i class="fa-solid fa-mug-saucer fa-beat"></i>
+                                                  </a></li>
+                                                </ul>
+                                              </div>
+                                        </nav>
+                                   </div>
+                                        <br>
+                                        <div class = "container">
+                                            <div class = "card">
+                                            <pre class = "red-text text-darken-2">
+                                &lt;nav&gt;
+                                    &lt;div class="nav-wrapper"&gt;
+                                    &lt;a href="#" class="brand-logo center"&gt;Logo&lt;/a&gt;
+                                    &lt;ul id="nav-mobile" class="left hide-on-med-and-down"&gt;
+                                    &lt;li&gt;&lt;a href="sass.html"&gt;Sass&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href="badges.html"&gt;Components&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li&gt;&lt;a href="collapsible.html"&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+                                    &lt;/ul&gt;
+                                    &lt;/div&gt;
+                                    &lt;/nav&gt;
+                                            </pre>
+                                            </div>
+                                        </div>
+                                        <br><br>
+                                        <div class = "container">
+                                            <h3 class = "red-text text-lighten-2">Active Items</h3>
+                                            <p>Add active class to your li tags to denote the current page.</p>
+                            
+                                            <nav class = "purple">
+                                                <div class="nav-wrapper">
+                                                    <a href="#!" class="brand-logo center">
+                                                        <i class="fa-solid fa-folder fa-beat"></i>
+                                                    </a>
+                                                    <ul class="left hide-on-med-and-down">
+                                                      <li><a href="#">
+                                                        <i class="fa-solid fa-file-word fa-beat"></i>
+                                                      </a></li>
+                                                      <li><a href="#">
+                                                        <i class="fa-solid fa-file-pdf fa-beat"></i>
+                                                      </a></li>
+                                                      <li class="active"><a href="#">
+                                                        <i class="fa-solid fa-file-code fa-beat"></i>
+                                                      </a></li>
+                                                    </ul>
+                                                  </div>
+                                            </nav>
+                                        </div>
+                                        <br>
+                                        <div class = "container">
+                                            <div class = " card">
+                                                <pre class = "orange-text text-darken-2">
+                                &lt;nav&gt;
+                                    &lt;div class="nav-wrapper"&gt;
+                                    &lt;a href="#!" class="brand-logo center"&gt;Logo&lt;/a&gt;
+                                       &lt;ul class="left hide-on-med-and-down"&gt;
+                                         &lt;li&gt;&lt;a href="sass.html"&gt;Sass&lt;/a&gt;&lt;/li&gt;
+                                         &lt;li&gt;&lt;a href="badges.html"&gt;Components&lt;/a&gt;&lt;/li&gt;
+                                         &lt;li class="active"&gt;&lt;a href="collapsible.html"&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+                                        &lt;/ul&gt;
+                                    &lt;/div&gt;
+                                &lt;/nav&gt;
+                                                </pre>                    
+                                            </div>
+                                        </div>
+                                        <br><br>
+                                        <div class = " container">
+                                            <div>
+                                                <h3 class = "red-text text-lighten-2">Extended Navbar with Tabs</h3>
+                                                <p>
+                                                    To add extended components to the navbar, add the class nav-extended to the outer nav tag. This will allow your navbar height to be variable. Then you can just include a tabs component inside the nav-wrapper.
+                                                </p>
+                                                <!--navbar Extended-->
+                                                <nav class = "purple nav-extended">
+                                                    <div class = "container">
+                                                        <div class="nav-wrapper">
+                                                        <a href="https://fontawesome.com/search?o=r&m=free&f=classic" 
+                                                        class="brand-logo center " target="_blank">
+                                                            <i class="fa-brands fa-instagram fa-beat"></i>
+                                                        </a>
+                                                        <!-- side nav -->
+                                                        <a href="" class="sidenav-trigger" 
+                                                        data-target = "mobile-demo">
+                                                            <i class="fa-solid fa-bars">
+                                                            </i>
+                                                        </a>
+                                                        <ul id ="nav-mobile"class="right hide-on-med-and-down">
+                                                        <li><a href="#">
+                                                            <i class="fa-brands fa-x-twitter fa-beat"></i>
+                                                        </a></li>
+                                                        <li><a href="#">
+                                                            <i class="fa-brands fa-facebook fa-beat"></i>
+                                                        </a></li>
+                                                        <li class="active"><a href="#">
+                                                            <i class="fa-solid fa-at"></i>
+                                                            </a></li>
+                                                        </ul>
+                                                        </div>
+                                                        <div class="nav-content">
+                                                        <ul class="tabs tabs-transparent">
+                                                            <li class="tab">
+                                                                <a href="#test1">
+                                                                    Focus
+                                                                </a>
+                                                            </li>
+                                                            <li class="tab">
+                                                                <a href="#test2">
+                                                                    ANGEL
+                                                                </a>
+                                                            </li>
+                                                            <li class="tab">
+                                                                <a href="#test3">
+                                                                    IMAGES
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    </div>
+                                                </nav>
+                                                <!--sidenav structure-->
+                                                <ul class="purple lighten-4 sidenav"  id="mobile-demo">
+                                                    <h5 class = "center">
+                                                        SIDENAV
+                                                    </h5>
+                                                    <div class="class divider"></div>
+                                                    <li><a href="#">
+                                                        <i class="fa-brands fa-x-twitter fa-beat">
+                                                        </i>
+                                                        Twitter
+                                                    </a></li>
+                                                    <li><a href="#">
+                                                        <i class="fa-brands fa-facebook fa-beat"></i>
+                                                        Facebook
+                                                    </a></li>
+                                                    
+                                                    <li class="active"><a href="#">
+                                                        <i class="fa-solid fa-at"></i>
+                                                        </a></li>
+                                                </ul>
+                                                <!--tabs structure-->
+                                                <div clas="row">
+                                                    <style>
+                                                        .card {
+                                                        background-color: rgb(255, 255, 255); /* Set the background color */
+                                                        border: 0ch;
+                                                        padding: 10  px;
+                                                }
+                                                    </style>
+                                                    <div class = " col s12" id="test1">
+                                                        <div class = "card">
+                                                            <div class = "card-image">
+                                                                <img src="aj.jpg" alt="" 
+                                                                class = "responsive-img">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class = " col s12" id="test2">
+                                                        <div class = "card">
+                                                            <div class = "card-image">
+                                                                <img src="aj2.jpg" alt="" 
+                                                                class = "responsive-img">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class = " col s12" id="test3">
+                                                        <div class = "card">
+                                                            <div class = "card-image">
+                                                                <img src="aj3.jpg" alt="" 
+                                                                class = "responsive-img">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br><br>
+                                                <div >
+                                                    <h3 class = "red-text textlighten-2">
+                                                        Navbar DropDown Menu
+                                                    </h3>
+                                                    <div>
+                                                        <p>
+                                                            To add a navbar dropdown menu, add the ul dropdown structure into the page. 
+                                                            Then, add an element to trigger the dropdown menu. 
+                                                            Make sure to supply the id of the dropdown structure 
+                                                            to the data-target attribute of the dropdown trigger.
+                                                        </p>
+                                                        <nav>
+                                                            <div class="nav-wrapper">
+                                                            <a href="#!" class="brand-logo center">Logo</a>
+                                                            <ul class="right hide-on-med-and-down">
+                                                                <li><a href="sass.html">Sass</a></li>
+                                                                <li><a href="badges.html">Components</a></li>
+                                                                <!-- Dropdown Trigger -->
+                                                                <li>
+                                                                    <a class="dropdown-trigger" href="#!" 
+                                                                    data-target="dropdown1">Dropdown
+                                                                    <i class="material-icons right">arrow_drop_down</i>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                            </div>
+                                                    <!-- Dropdown Structure -->
+                                                    <ul id="dropdown1" class="dropdown-content">
+                                                        <li>
+                                                            <a href="#!">One</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#!">Two</a>
+                                                        </li>
+                                                        <li>
+                                                            <div class="divider"></div>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#!">Three</a>
+                                                        </li>
+                                                    </ul>
+                                                        </nav>
+                                                        <br>
+                                                        <div class = "card">
+                                                            <pre class = "purple-text text-darken-2">
+                                &lt;!-- Dropdown Structure --&gt; 
+                                &lt;ul id="dropdown1" class="dropdown-content"&gt; 
+                                &nbsp;&nbsp;&lt;li&gt;&lt;a href="#!"&gt;one&lt;/a&gt;&lt;/li&gt;
+                                &nbsp;&nbsp;&lt;li&gt;&lt;a href="#!"&gt;two&lt;/a&gt;&lt;/li&gt; 
+                                &nbsp;&nbsp;&lt;li class="divider"&gt;&lt;/li&gt; 
+                                &nbsp;&nbsp;&lt;li&gt;&lt;a href="#!"&gt;three&lt;/a&gt;&lt;/li&gt; 
+                                &lt;/ul&gt; 
+                                &lt;nav&gt; 
+                                &nbsp;&nbsp;&lt;div class="nav-wrapper"&gt; 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="#!" class="brand-logo"&gt;Logo&lt;/a&gt;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;ul class="right hide-on-med-and-down"&gt; 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="sass.html"&gt;Sass&lt;/a&gt;&lt;/li&gt; 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="badges.html"&gt;Components&lt;/a&gt;&lt;/li&gt; 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Dropdown Trigger --&gt; 
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a class="dropdown-trigger" href="#!" data-target="dropdown1"&gt;Dropdown&lt;i class="material-icons right"&gt;arrow_drop_down&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt; 
+                                &nbsp;&nbsp;&lt;/div&gt; 
+                                &lt;/nav&gt;
+                                                            </pre>
+                                                        </div>
+                                                        <br>
+                                                        <h5>
+                                                            To activate the dropdown menu, insert this line of code into your JavaScript file, within the 
+                                                            <span class ="red-text">$( document ).ready(function)</span> block
+                                                        </h5>
+                                                        <br>
+                                                        <div class="card">
+                                                        $( <span class ="green-text">".dropdown-trigger"</span>).<span class = "red-text text-lighten">dropdow</span>n();
+                                                        </div>
+                                                        <br>
+                                                        <h4>
+                                                            Trigger dropdown menu on click
+                                                        </h4>
+                                                        <p>
+                                                            By default, the dropdown menu is activated by hovering over the dropdown trigger. 
+                                                            To activate the dropdown menu on click, pass 
+                                                        <span class = "blue-text">{ hover: false } </span> 
+                                                            into the above 
+                                                        <span class = "red-text text-lighten">dropdown() </span> 
+                                                            function
+                                                        </p>
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--5th modal-->
+                    <div class="grid-item col s12 m6 l4">
+                        <br><br><br><br>
+                        <div class="card transparent" id="myCard5">
+                            <div class="card-content">
+                                <span class="card-title center red-text text-lighten-2">BUTTONS</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Modal Structure -->
+                        <div id="myModal5" class="modal">
+                            <div class="modal-content">
+                                
+                                <style>
+        .card {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 30px;
+    width: auto;
+    height:auto;
+    overflow-x: auto;
+}
+    </style>
+    <h1 class = "red-text center text-lighten-2">
+        Buttons
+    </h1>
+    <div class="divider"></div>
+    <div class = "container">
+        <p>
+            There are 3 main button types described in material design. The raised button is a standard button that signify actions and seek to give depth to a mostly flat page. The floating circular action button is meant for very important functions. Flat buttons are usually used within elements that already have depth like cards or modals.
+        </p>
+        <div>
+            <h3 class = "red-text text-lighten-2">Raised
+            </h3>
+            <!--Floating buttons-->
+            <a class="waves-effect purple waves-light btn"><i class="material-icons left">cloud</i>button</a>
+            <a class="waves-effect purple waves-light btn">
+                <i class="material-icons left">cloud</i>button</a>
+            <a class="waves-effect purple waves-light  btn"><i class="material-icons right">cloud</i>button</a>
+            <!--End of Floating buttons-->
+            <div class = "card">
+                <pre class="blue-text">
+    &lt;a class="waves-effect waves-light btn"&gt;button&lt;/a&gt; 
+    &lt;a class="waves-effect waves-light btn"&gt;&nbsp;&nbsp;&lt;i class="material-icons left"&gt;cloud&lt;/i&gt;button&lt;/a&gt;
+    &lt;a class="waves-effect waves-light btn"&gt;&nbsp;&nbsp;button&lt;i class="material-icons right"&gt;cloud&lt;/i&gt;&lt;/a&gt;
+                </pre>
+            </div>
+            <br>
+            <h3 class = "red-text text-lighten-2">
+                Floating
+            </h3>
+            <a class="btn-floating btn-large purple waves-effect waves-light"><i class="material-icons">add</i></a>
+            <div class = "card">
+                <pre class = "red-text">
+    &lt;a class="btn-floating btn-large waves-effect waves-light red"&gt; &lt;i class="material-icons"&gt;add&lt;/i&gt; &lt;/a&gt;
+                </pre>
+            </div>
+            <br>
+            <h5>
+                Floating Action Button
+            </h5>
+            <p>
+                See the documentation on <a href="" class="">this page</a>
+            </p>
+            <br>
+            <h3 class = "red-text text-lighten-2">
+                Flat
+            </h3>
+            <p>
+                Flat buttons are used to reduce excessive layering. For example, flat buttons are usually used for actions within a card or modal so there aren't too many overlapping shadows.
+            </p>
+            <a class="waves-effect waves-purple btn-flat">
+                <i class="material-icons right">cloud</i>Cloud
+            </a>
+            <div class="card" style="height: 166px; width: auto;" >
+                <div class="card-content">
+                <pre>&lt;a class="waves-effect waves-teal btn-flat"&gt;Button&lt;/a&gt;</pre>
+                </div>
+            </div>
+            <br>
+            <br>
+            <h3 class = "red-text text-lighten-2">
+                Submit Button
+            </h3>
+            <p>
+                When you use a button to submit a form, instead of using a input tag, use a button tag with a type submit
+            </p>
+            <button class="btn waves-effect waves-light purple" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+            </button>
+            <div class ="card" >
+                <pre>
+    &lt;button class="btn waves-effect waves-light" type="submit" name="action"&gt;Submit
+        &nbsp;&nbsp;&lt;i class="material-icons right"&gt;send&lt;/i&gt;
+    &lt;/button&gt;
+                </pre>
+            </div>
+            <br><br>
+            <h3 class = "red-text text-lighten-2">
+                Large
+            </h3>
+            <p>
+                This button has a larger height for buttons that need more attention.
+            </p>
+            <a class="waves-effect waves-light btn-large purple"><i class="material-icons left">cloud</i>Button</a>
+
+            <a class="waves-effect waves-light btn-large purple"><i class="material-icons left">cloud</i>button</a>
+
+            <a class="waves-effect waves-light btn-large purple"><i class="material-icons right">cloud</i>button</a>
+            <div class ="card">
+                <pre class = "blue-text text-darken-4">
+    &lt;a class="waves-effect waves-light btn-large purple"&gt; &lt;i class="material-icons left"&gt;cloud&lt;/i&gt;Button&lt;/a&gt;
+    &lt;a class="waves-effect waves-light btn-large purple"&gt; &lt;i class="material-icons left"&gt;cloud&lt;/i&gt;button&lt;/a&gt;
+    &lt;a class="waves-effect waves-light btn-large purple"&gt; &lt;i class="material-icons right"&gt;cloud&lt;/i&gt;button&lt;/a&gt;
+                </pre>
+            </div>
+            <br><br>
+            <h3 class = "red-text text-lighten-2">
+                Small
+            </h3>
+            <p>
+                When mouse and keyboard are the primary input methods, this smaller button is useful for denser UI layouts.
+            </p>
+            <!--small buttons-->
+            <a class="waves-effect waves-light btn-small purple">Button</a>
+            <a class="waves-effect waves-light btn-small purple">
+                <i class="material-icons left">cloud</i>button</a>
+            <a class="waves-effect waves-light btn-small purple">
+                <i class="material-icons right">cloud</i>button</a>
+            <div class ="card">
+                <pre>
+    &lt;a class="waves-effect waves-light btn-small"&gt;Button&lt;/a&gt; 
+    &lt;a class="waves-effect waves-light btn-small"&gt;&lt;i class="material-icons left"&gt;cloud&lt;/i&gt;button&lt;/a&gt; 
+    &lt;a class="waves-effect waves-light btn-small"&gt;&lt;i class="material-icons right"&gt;cloud&lt;/i&gt;button&lt;/a&gt;
+                </pre>
+            </div>
+
+            <br><br>
+            <h3 class = "red-text text-lighten-2">
+                Disabled
+            </h3>
+            <p>This style can be applied to all button types</p>
+            <!--disabled buttons-->
+            <a class="btn-large disabled">Button</a>
+            <a class="btn disabled">Button</a>
+            <a class="btn-flat disabled">Button</a>
+            <a class="btn-floating disabled">
+                <i class="material-icons">add</i></a>
+            <div class = "card">
+                <pre class = "red-text text-darken-4">
+    &lt;a class="btn-large disabled"&gt;Button&lt;/a&gt;
+    &lt;a class="btn disabled"&gt;Button&lt;/a&gt;
+    &lt;a class="btn-flat disabled"&gt;Button&lt;/a&gt;
+    &lt;a class="btn-floating disabled"&gt;&lt;i class="material-icons"&gt;add&lt;/i&gt;&lt;/a&gt;
+                </pre>
+            </div>
+        </div>
+    </div>
+    <div class = "divider">
+
+    </div>
+    </div>
+    <br><br>
+    <!--Floating action buttons conss-->
+    <div>
+        <h1 class ="red-text text-lighten-2 center">
+            Floating Action Button
+        </h1>
+        <div class = "divider"></div>
+        <div class = "container">
+            <p>
+                If you want a fixed floating action button, you can add multiple actions that will appear on hover. Our demo is in the bottom righthand corner of the page.
+            </p>
+
+            <div class="fixed-action-btn toolbar">
+                <a href="#!" class="btn-floating btn-large purple">
+                    <i class="material-icons">mode_edit</i>
+                </a>
+                <ul>
+                    <li>
+                        <a href="#!"class="btn purple">
+                            <i class="large material-icons">code</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!"class="btn red">
+                        <i class="material-icons">favorite
+                    </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!"class="btn green">
+                            <i class="large material-icons">airline_seat_individual_suite</i>
+                        </a>
+                    </li>
+                </ul>
+            
+            </div>
+            <!--container div-->
+            
+
+        </div>
+        <div class = "divider"></div>
+        <!--Modal part-->
+        <br><br>
+        <div> 
+            <h1 class = "center red-text text-lighten-2">
+            Modals
+            </h1>
+            
+            <div class ="divider">
+            </div>
+            <div class = "container">
+                <p>
+                    Use a modal for dialog boxes, confirmation messages, or other content that can be called up. In order for the modal to work you have to add the Modal ID to the link of the trigger. To add a close button, just add the class .modal-close to your button.
+                </p>
+                <!-- Modal Trigger -->
+            <a class=" waves-effect waves-light btn modal-trigger purple" href="#modal1">
+                <i class="fa-brands fa-spotify right"></i>spotify
+            </a><br>
+
+                <!-- Modal Structure -->
+            <div id="modal1" class="modal"
+            style="max-height: fit-content; border-radius: 12px;">
+                <div class="modal-content grey darken-4 ">
+                <h4 class = "white-text">Embed playlist</h4><br>
+                <div class="color-container">
+                    <h5 class="color-label white-text">Color:
+                        <button class="color-button cyan-button"></button>
+                        <button class="color-button dark-grey-button"></button>
+                </div>
+                
+                    <br>
+                <div class = "video-container" style="border-radius: 12px;">
+                    <iframe style="height: 500px; border-radius: 12px;" src="https://open.spotify.com/embed/album/0uF7LYXx0mDrWeMxZ3vRkz?utm_source=generator" 
+                    width="100%" height="352" frameBorder="" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <p class = "grey-text">
+                    By embedding a Spotify player on your site, you are agreeing to 
+                    <span class = "white-text">Spotify's Developer Terms</span>  
+                    and 
+                    <span class = "white-text">Spotify Platform Rules</span> 
+                </p>
+                </div>
+                
+
+                <!--footer-->
+                <div class="modal-footer grey darken-4">
+                    <label>
+                        <input type="checkbox" id="showCodeCheckbox" />
+                        <span>Show Code</span>
+                    </label>
+                    
+                    <a href="#!" class="btn green" style="border-radius: 10cm;">Copy</a>
+                </div>
+            </div>
+
+            </div>
+        </div>
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--6th modal-->
+                    <div class="grid-item col s12 m6 l4">
+                        <br><br><br><br>
+                        <div class="card transparent center" id="myCard6">
+                            <div class="card-content">
+                                <span class="card-title center red-text text-lighten-2">GRID</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Modal Structure -->
+                        <div id="myModal6" class="modal">
+                            <div class="modal-content">
+                                
+                                <h1 class = "red-text text-lighten-2 center">
+                                    Grid
+                                </h1>
+                                <div class = "divider"></div>
+                                <div class = "container">
+                                    <br>
+                                    <div class = " row">
+                                        <div class = "col s12 m9 ">
+                                            <p>
+                                                We are using a standard 12 column fluid responsive grid system. The grid helps you layout your page in an ordered, easy fashion.
+                                            </p>
+                                            <div id="container" class="section scrollspy">
+                                                <h3 class ="red-text text-lighten-2">
+                                                    Container
+                                                </h3>
+                                            </div>
+                                            <p>
+                                                The container class is not strictly part of the grid but is important in laying out content. It allows you to center your page content. The container class is set to ~70% of the window width. It helps you center and contain your page content. We use the container to contain our body content.
+                                            </p>
+                                            <h5
+                                            class="fow-text">Demo</h5>
+                                            <p> 
+                                                Try the button below to see what the page looks like without containers.
+                                            </p>
+                                            <a href="" class="btn waves-effect waves-light">Turn Off containers</a>
+                                            <br>
+                                            <br>
+                                            <img src="Gridimg.png" alt="" class="responsive-img">
+                                            <br><br>
+                                            <p>
+                                                To add a container just put your content inside a &lt;div&gt; tag with a container class. Here's an example of how your page might be set up.
+                                            </p>
+                                            <div class = "card">
+                                                <pre class = "blue-text ">
+                            
+                                &lt;body&gt;
+                                &lt;div class="container"&gt;
+                                &lt;!-- Page Content goes here --&gt;
+                                &lt;/div&gt;
+                                &lt;/body&gt;
+                                    </pre>  
+                                            </div>
+                                            <br>
+                                            <br>
+                                            <div id="instruction" class="section scrollspy">
+                                                <h3 class = "red-text text-lighten-2">
+                                                    Instruction
+                                                </h3>
+                                            </div>
+                                            
+                                            <p>
+                                                Take a look at this section to quickly understand how the grid works!
+                                            </p>
+                                            <h5>
+                                                12 Columns
+                                            </h5>
+                                            <p>
+                                                Our standard grid has 12 columns. No matter the size of the browser, each of these columns will always have an equal width.
+                                            </p>
+                                            <br>
+                                            <div class = "row">
+                                                <div class = "col s1 card-panel purple ">
+                                                    <p class="center yellow-text">1</p>
+                                                </div>
+                                                <div class = "col s1  card-panel purple">
+                                                    <p class="center yellow-text">2</p>
+                                                </div>
+                                                <div class = "col s1 card-panel purple">
+                                                    <p class="center yellow-text">3</p>
+                                                </div>
+                                                <div class = "col s1 card-panel purple">
+                                                    <p class="center yellow-text">4</p>
+                                                </div>
+                                                <div class = "col s1 card-panel purple">
+                                                    <p class="center yellow-text">5</p>
+                                                </div> 
+                                                <div class = "col s1 card-panel purple">
+                                                    <p class="center yellow-text">6</p>
+                                                </div>
+                                                <div class = "col s1 card-panel purple">
+                                                    <p class="center yellow-text">7</p>
+                                                </div>
+                                                <div class = "col s1 card-panel purple">
+                                                    <p class="center yellow-text">8</p>
+                                                </div>
+                                                <div class = "col s1 card-panel purple">
+                                                    <p class="center yellow-text">9</p>
+                                                </div>
+                                                <div class = "col s1 card-panel purple">
+                                                    <p class="center yellow-text">10</p>
+                                                </div>
+                                                <div class = "col s1 card-panel purple">
+                                                    <p class="center yellow-text">11</p>
+                                                </div>
+                                                <div class = "col s1 card-panel purple">
+                                                    <p class="center yellow-text">12</p>
+                                                </div>
+                                                <br><br>
+                                                <p>
+                                                    To get a feel of how the grid is used in HTML, take a look at the code below which will produce a similar result to the one above.
+                                                </p>
+                                                
+                            
+                                                
+                                                <div class="card">
+                                                    <pre class="red-text">
+                            
+                                &lt;div class="row"&gt;
+                                &nbsp;&nbsp;&lt;div class="col s1"&gt;1&lt;/div&gt;
+                                &nbsp;&nbsp;&lt;div class="col s1"&gt;2&lt;/div&gt;
+                                &nbsp;&nbsp;&lt;div class="col s1"&gt;3&lt;/div&gt;
+                                &nbsp;&nbsp;&lt;div class="col s1"&gt;4&lt;/div&gt;
+                                &nbsp;&nbsp;&lt;div class="col s1"&gt;5&lt;/div&gt;
+                                &nbsp;&nbsp;&lt;div class="col s1"&gt;6&lt;/div&gt;
+                                &nbsp;&nbsp;&lt;div class="col s1"&gt;7&lt;/div&gt;
+                                &nbsp;&nbsp;&lt;div class="col s1"&gt;8&lt;/div&gt;
+                                &nbsp;&nbsp;&lt;div class="col s1"&gt;9&lt;/div&gt;
+                                &nbsp;&nbsp;&lt;div class="col s1"&gt;10&lt;/div&gt;
+                                &nbsp;&nbsp;&lt;div class="col s1"&gt;11&lt;/div&gt;
+                                &nbsp;&nbsp;&lt;div class="col s1"&gt;12&lt;/div&gt;
+                                &lt;/div&gt;
+                                                    </pre>                        
+                                                </div>
+                                                <p>
+                                                    Note: For now, just know that the 
+                                                    <code class="language-markup">
+                                                        s1 
+                                                    </code>
+                                                    stands for small-1 which in plain English means "1 column on small screens".
+                                                </p>
+                                                <br>
+                                            </div>
+                                            <h5>
+                                                    Columns lfive inside Rows
+                                                </h5>
+                                                <p>
+                                                    Remember when you are creating your layout that all columns must be contained inside a row and that you must add the 
+                                                    <code class="language-markup">col </code>                        
+                                                    class to your inner divs to make them into columns
+                                                </p>
+                                                <div class="row">
+                                                    <div class = "col s12 card-panel purple " style="text-align: center;">
+                                                        <span class="flow-text" style="color: white;">This div is 12-columns wide on all screen sizes</span>
+                                                    </div>
+                                                    <div class = "col s6 card-panel purple " style="text-align: center;">
+                                                        <span class="flow-text" style="color: white;">6-columns (one-half)</span>
+                                                    </div>
+                                                    <div class = "col s6 card-panel purple " style="text-align: center;">
+                                                        <span class="flow-text" style="color: white;">6-columns (one-half)</span>
+                                                    </div>                        
+                                                </div>
+                                                <div class="card">
+                                                    <pre>
+                            
+                                &lt;div class="row"&gt;
+                                &nbsp;&nbsp;&lt;div class="col s12"&gt;This div is 12-columns wide on all screen sizes&lt;/div&gt;
+                                &nbsp;&nbsp;&lt;div class="col s6"&gt;6-columns (one-half)&lt;/div&gt;
+                                &nbsp;&nbsp;&lt;div class="col s6"&gt;6-columns (one-half)&lt;/div&gt;
+                                &lt;/div&gt;
+                                                    </pre>
+                                                </div>
+                                                <br><br><br>
+                                                
+                                                <div id="offset" class="section scrollspy">
+                                                    <h3 class="red-text text-lighten-2">
+                                                        Offsets
+                                                    </h3>
+                                                    <p>
+                                                        To offset, simply add 
+                                                        <code class="language-markup">offset-s2</code>                            
+                                                        to the class where 
+                                                        <code class="language-markup">s</code>
+                                                        signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to offset by.
+                                                    </p>
+                                                </div>
+                                                <div class="row">
+                                                    <div class = "col s12 card-panel purple " style="text-align: center;">
+                                                        <span class="flow-text" style="color: white;">This div is 12-columns wide on all screen sizes</span>
+                                                    </div>
+                                                    <div class = "col s6 offset-s6 card-panel purple " style="text-align: center;">
+                                                        <span class="flow-text" style="color: white;">6-columns (offset-by-6)</span>
+                                                    </div>
+                                                    <div class="card">
+                                                        <pre>
+                                &lt;div class="row"&gt;
+                                &nbsp;&nbsp;&lt;div class="col s12"&gt;&lt;span class="flow-text"&gt;This div is 12-columns wide on all screen sizes&lt;/span&gt;&lt;/div&gt;
+                                &nbsp;&nbsp;&lt;div class="col s6 offset-s6"&gt;&lt;span class="flow-text"&gt;6-columns (offset-by-6)&lt;/span&gt;&lt;/div&gt;
+                                &lt;/div&gt;
+                                                        </pre>
+                                                    </div>
+                                                </div>
+                                                <br><br>
+                                                <div id="push" class="section scrollspy">
+                                                    <h3 class = "red-text text-lighten-2">
+                                                        Push and Pull 
+                                                    </h3>
+                                                    <p>
+                                                        You can easily change the order of your columns with push and pull. Simply add 
+                                                        <code class="language-markup">push-s2</code>
+                                                        or 
+                                                        <code class="language-markup">pull-s2</code>                            
+                                                        to the class where 
+                                                        <code class="language-markup">s</code> 
+                                                        signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to push or pull by.
+                                                    </p>
+                                                </div>
+                                                <div class="row">
+                                                    <div class = "col s7 push-s5 card-panel purple " style="text-align: center;">
+                                                        <span class="flow-text" style="color: white;">This div is 7-columns wide on pushed to the right by 5-columns</span>
+                                                    </div>
+                                                    <div class = "col s5 pull-s7 card-panel purple " style="text-align: center;">
+                                                        <span class="flow-text" style="color: white;">5-columns wide pulled to the left by 7-columns.</span>
+                                                    </div>
+                                                    <div class="card">
+                                                        <pre>
+                                &lt;div class="row"&gt;
+                                &nbsp;&nbsp;&lt;div class="col s7 push-s5"&gt;&lt;span class="flow-text"&gt;This div is 7-columns wide pushed to the right by 5-columns.&lt;/span&gt;&lt;/div&gt;
+                                &nbsp;&nbsp;&lt;div class="col s5 pull-s7"&gt;&lt;span class="flow-text"&gt;5-columns wide pulled to the left by 7-columns.&lt;/span&gt;&lt;/div&gt;
+                                &lt;/div&gt;
+                                                        </pre>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                
+                                                <div id="creating" class="section scrollspy">
+                                                    <h3 class = "red-text text-lighten-2">
+                                                        Creating Layouts 
+                                                    </h3>
+                                                    <p>
+                                                        Here we will show you how to create some commonly used layouts with our grid system. Hopefully these will get you more comfortable with laying out elements. To keep these demos simple, the ones here will not be responsive.
+                                                    </p>
+                                                <div class="row">
+                                                <div class="col s12 m6">
+                                                    <h5>Section</h5>
+                                                    <p>The section class is used for simple top and bottom padding. Just add the <code class=" language-markup">section</code> class to your div's containing large blocks of content.</p>
+                                                </div>
+                                                <div class="col s12 m6">
+                                                    <h5>Divider</h5>
+                                                    <p>Dividers are 1 pixel lines that help break up your content. Just add the <code class=" language-markup">divider</code> to a div in between your content.</p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h5>
+                                                    Example Sections and Dividers
+                                                </h5>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="section">
+                                                <h5>Section 1</h5>
+                                                <p>Stuff</p>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="section">
+                                                <h5>Section 2</h5>
+                                                <p>Stuff</p>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="section">
+                                                <h5>Section 3</h5>
+                                                <p>Stuff</p>
+                                            </div>
+                                            <div class="divider"></div>
+                                            <div class="card">
+                                                <pre class="blue-text">
+                                &lt;div class="divider"&gt;&lt;/div&gt;
+                                &lt;div class="section"&gt;
+                                    &lt;h5&gt;Section 1&lt;/h5&gt;
+                                    &lt;p&gt;Stuff&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div class="divider"&gt;&lt;/div&gt;
+                                &lt;div class="section"&gt;
+                                    &lt;h5&gt;Section 2&lt;/h5&gt;
+                                    &lt;p&gt;Stuff&lt;/p&gt;
+                                &lt;/div&gt;
+                                &lt;div class="divider"&gt;&lt;/div&gt;
+                                &lt;div class="section"&gt;
+                                    &lt;h5&gt;Section 3&lt;/h5&gt;
+                                    &lt;p&gt;Stuff&lt;/p&gt;
+                                &lt;/div&gt;
+                                                </pre>
+                                            </div>
+                                            <br>
+                                            <h5>
+                                                Example Promotion Table
+                                            </h5>
+                                            <p>
+                                                If we want 3 divs that are equal size, we define the divs with a width of 4-columns, as 4+4+4 nicely adds up to 12. Inside those divs, we can put our content. Take our front page content for example. We've modified it slightly for the sake of this example
+                                            </p>
+                                            <br>
+                                            <div class="row">
+                                                <div class="col s4">
+                                                    <div class="center promo promo-example">
+                                                        <i class="material-icons large">flash_on</i>
+                                                        <p class="promo-caption">Speeds up development</p>
+                                                        <p class="light center">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col s4">
+                                                    <div class="center promo promo-example">
+                                                    <i class="material-icons large">group</i>
+                                                    <p class="promo-caption">User Experience Focused</p>
+                                                    <p class="light center">By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col s4">
+                                                    <div class="center promo promo-example">
+                                                    <i class="material-icons large">settings</i>
+                                                    <p class="promo-caption">Easy to work 
+                                                        <br>with</p>
+                                                    <p class="light center">We have provided detailed documentation as well as specific code examples to help new users get started.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <pre>
+                                &lt;div class="row"&gt;<br>
+                                &lt;div class="col s4"&gt;
+                                &lt;!-- Promo Content 1 goes here --&gt;
+                                &lt;/div&gt;
+                                &lt;div class="col s4"&gt;
+                                &lt;!-- Promo Content 2 goes here --&gt;
+                                &lt;/div&gt;
+                                &lt;div class="col s4"&gt;
+                                &lt;!-- Promo Content 3 goes here --&gt;
+                                &lt;/div&gt;<br>
+                                &lt;/div&gt;
+                                                </pre>
+                                                <br>
+                                            </div>
+                                            <br>
+                                            <h5>
+                                                Example Side Navigation Layout
+                                            </h5>
+                                            <p>
+                                                You can see how easy it is to create layouts using the grid system. Just remember to make sure your column numbers add up to 12 for an even layout.
+                                            </p>
+                                            <img src="2ndGridimg.png" alt="" class="responsive-img">
+                                            <br>
+                                            <div class="card">
+                                                <pre>
+                                &lt;!-- Navbar goes here --&gt;<br>
+                                &lt;!-- Page Layout here --&gt;
+                                &lt;div class="row"&gt;<br>
+                                &lt;div class="col s3"&gt;
+                                &lt;!-- Grey navigation panel --&gt;
+                                &lt;/div&gt;<br>
+                                &lt;div class="col s9"&gt;
+                                &lt;!-- Teal page content --&gt;
+                                &lt;/div&gt;<br>
+                                &lt;/div&gt;
+                                                </pre>
+                                            </div>
+                                            </div>
+                            
+                                            <div id="responsivlay" class="section scrollspy">
+                                                <h3 class = "red-text text-lighten-2">
+                                                    Creating Responsive Layouts 
+                                                </h3>
+                                                <p>
+                                                    Above we showed you how to layout elements using our grid system. Now we'll show you how to design your layouts so that they look great on all screen sizes.
+                                                </p>
+                                                <h5>
+                                                    Screen Sizes
+                                                </h5>
+                                                <table class="highlight">
+                                                    <thead>
+                                                    <tr>
+                                                        <th></th>
+                                                        <th data-field="id">Mobile Devices <br>&lt;= 600px</th>
+                                                        <th data-field="name">Tablet Devices <br>&gt; 600px</th>
+                                                        <th data-field="price">Desktop Devices <br>&gt; 992px</th>
+                                                        <th data-field="price">Large Desktop Devices <br>&gt; 1200px</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td><strong>Class Prefix</strong></td>
+                                                        <td><code class=" language-markup">.s</code></td>
+                                                        <td><code class=" language-markup">.m</code></td>
+                                                        <td><code class=" language-markup">.l</code></td>
+                                                        <td><code class=" language-markup">.xl</code></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><strong>Container Width</strong></td>
+                                                        <td>90%</td>
+                                                        <td>85%</td>
+                                                        <td>70%</td>
+                                                        <td>70%</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><strong>Number of Columns</strong></td>
+                                                        <td>12</td>
+                                                        <td>12</td>
+                                                        <td>12</td>
+                                                        <td>12</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <br>
+                                                <h5>
+                                                    Adding Responsiveness
+                                                </h5>
+                                                <p>
+                                                    In the previous examples, we only defined the size for small screens using 
+                                                    <code class="language-markup">"col s12"</code>
+                                                    . This is fine if we want a fixed layout since the rules propagate upwards. By just saying s12, we are essentially saying 
+                                                    <code class="language-markup">"col s12 m12 l12"</code>
+                                                    . But by explicitly defining the size we can make our website more responsive.
+                                                </p>
+                            
+                                                <div class="row">
+                                                    <div class="grid-example col s12 teal lighten-2"><span class="flow-text">I am always full-width (col s12)</span></div>
+                                                    <br><br>
+                                                    <div class="grid-example col s12 m6 teal lighten-2"><span class="flow-text">I am full-width on mobile (col s12 m6)</span></div>
+                                                </div>
+                                                <div class="card">
+                                                    <pre>
+                                &lt;div class="row"&gt;
+                                &nbsp;&nbsp;&lt;div class="grid-example col s12"&gt;&lt;span class="flow-text"&gt;I am always full-width (col s12)&lt;/span&gt;&lt;/div&gt;
+                                &nbsp;&nbsp;&lt;div class="grid-example col s12 m6"&gt;&lt;span class="flow-text"&gt;I am full-width on mobile (col s12 m6)&lt;/span&gt;&lt;/div&gt;
+                                &lt;/div&gt;
+                                                    </pre>
+                                                </div>
+                                                <br>
+                                                <h5>
+                                                    Responsive Side Navigation Layout
+                                                </h5>
+                                                <p>
+                                                    In this example below, we take the same layout from above, but we make it responsive by defining how many columns the div should take up on each screen size. Try resizing your browser and watch the layout change below.
+                                                </p>
+                                                <img src="3rdgridimg.png" class="responsive-img">
+                                                <br>
+                                                <br>
+                                                <div class="card">
+                                                    <pre>
+                                &lt;!-- Navbar goes here --&gt;<br>
+                                &lt;!-- Page Layout here --&gt;
+                                &lt;div class="row"&gt;<br>
+                                &lt;div class="col s12 m4 l3"&gt; &lt;!-- Note that "m4 l3" was added --&gt;
+                                    &lt;!-- Grey navigation panel --&gt;<br>
+                                        This content will be:
+                                3-columns-wide on large screens,
+                                4-columns-wide on medium screens,
+                                12-columns-wide on small screens<br>
+                                &lt;/div&gt;<br>
+                                &lt;div class="col s12 m8 l9"&gt; &lt;!-- Note that "m8 l9" was added --&gt;
+                                    &lt;!-- Teal page content --&gt;<br>
+                                        This content will be:
+                                9-columns-wide on large screens,
+                                8-columns-wide on medium screens,
+                                12-columns-wide on small screens<br>
+                                &lt;/div>
+                                                    </pre>
+                                                </div>
+                                                <br>
+                                                <h5>
+                                                    More Responsive Grid Examples
+                                                </h5>
+                                                <div class="row">
+                                                    <div class="col s12 center teal lighten-1 "><p>s12</p></div>
+                                                    <br><br><br>
+                                                    <div class="col s12 m4 l2 center yellow lighten-1"><p>s12 m4</p></div>
+                                                    <div class="col s12 m4 l8 center teal lighten-1"><p>s12 m4</p></div>
+                                                    <div class="col s12 m4 l2 center yellow
+                                                    lighten-1"><p>s12 m4</p></div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col s12 m6 l3 center purple lighten-3"><p>s12 m6 l3</p></div>
+                                                    <div class="col s12 m6 l3 center purple lighten-2"><p>s12 m6 l3</p></div>
+                                                    <div class="col s12 m6 l3 center purple lighten-4"><p>s12 m6 l3</p></div>
+                                                    <div class="col s12 m6 l3 center purple lighten-5"><p>s12 m6 l3</p></div>
+                                                </div>
+                                                <div class="card">
+                                                    <pre>
+                                &lt;div class="row"&gt;
+                                    &lt;div class="col s12"&gt;&lt;p&gt;s12&lt;/p&gt;&lt;/div&gt;
+                                    &lt;div class="col s12 m4 l2"&gt;&lt;p&gt;s12 m4&lt;/p&gt;&lt;/div&gt;
+                                    &lt;div class="col s12 m4 l8"&gt;&lt;p&gt;s12 m4&lt;/p&gt;&lt;/div&gt;
+                                    &lt;div class="col s12 m4 l2"&gt;&lt;p&gt;s12 m4&lt;/p&gt;&lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class="row"&gt;
+                                    &lt;div class="col s12 m6 l3"&gt;&lt;p&gt;s12 m6 l3&lt;/p&gt;&lt;/div&gt;
+                                    &lt;div class="col s12 m6 l3"&gt;&lt;p&gt;s12 m6 l3&lt;/p&gt;&lt;/div&gt;
+                                    &lt;div class="col s12 m6 l3"&gt;&lt;p&gt;s12 m6 l3&lt;/p&gt;&lt;/div&gt;
+                                    &lt;div class="col s12 m6 l3"&gt;&lt;p&gt;s12 m6 l3&lt;/p&gt;&lt;/div&gt;
+                                &lt;/div&gt;
+                                                    </pre>
+                                                </div>
+                            
+                                            </div>
+                                            
+                                            </div> <!--row div before side row-->
+                                            
+                                        <div class="col s3 parent-sticky hide-on-small-only">
+                                            <img src="sideimg.png" alt="" class="responsive-img stock-img">
+                                            <a href="" class="red-text text-lighten-1 stock-link"><br>
+                                                Get 10 free Image.</a><br>
+                                            <a href="" class="red-text text-lighten-1 stock-link">From adobe stock.</a> <br> 
+                                            <a href="" class="red-text text-lighten-1 stock-link">Start Now!</a> 
+                                            <br>
+                                            <span>
+                                                <a href="" class="red-text text-lighten-1 stock-link-small ">Ads via carbon</a>
+                                            </span>
+                                            <!--scrollspy-->
+                                            <ul class="section table-of-contents">
+                                                <li>
+                                                    <a href="#container">Container
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#instruction">Instruction
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#offset">Offsets
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#push">Push and Pull
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#creating">Creating Layouts
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#responsivlay">Responsive Layouts
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <br>
+                                            <br>
+                            
+                                        </div>
+                                        
+                                    </div>
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                            </div>
+                        </div>
+            </div>
+        </div>
+
+
+    </div><!--ROW-->
+    <br><br>
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <div class="slide-content">
+                    <img src="typography.png" class="responsive-img">
+                    <div class="caption center-align">
+                        <h5 class="light black-text text-lighten-3">The First task given</h5>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="media-1.png" class="responsive-img"> <!-- random image -->
+                <div class="caption left-align">
+                    <h5 class="light black-text text-lighten-3">Second task.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="media-2.png" class="responsive-img"> <!-- random image -->
+                <div class="caption right-align">
+                    <h5 class="light black-text text-lighten-3">Im enjoying it, even its still too far from a good one.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="table.png" class="responsive-img"> <!-- random image -->
+                <div class="caption start-align">
+                    <h5 class="light black-text text-lighten-3">I thought this was good enough coz it has a lot of lines.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="button-1.png" class="responsive-img"> <!-- random image -->
+                <div class="caption center-align">
+                    <h5 class="light black-text text-lighten-3">Session after session and Im learning a lot more.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="button-2.png" class="responsive-img"> <!-- random image -->
+                <div class="caption left-align">
+                    <h5 class="light black-text text-lighten-3">I keep enjoying it </h5>
+                </div>
+            </li>
+            <li>
+                <img src="button-modal.png" class="responsive-img"> <!-- random image -->
+                <div class="caption right-align">
+                    <h5 class="light white-text text-lighten-3">Sir bobby, given us a challenge and I took it seriously and I really enjoyed it.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="navbar-1.png" class="responsive-img"> <!-- random image -->
+                <div class="caption left-align">
+                    <h5 class="light white-text text-lighten-3">Starting to think about "ohh so this is how those web was created"</h5>
+                </div>
+            </li>
+            <li>
+                <img src="navbar-2.png" class="responsive-img"> <!-- random image -->
+                <div class="caption center-align">
+                    <h5 class="light white-text text-lighten-3">EHEHHEHE</h5>
+                </div>
+            </li>
+            <li>
+                <img src="grid-1.png" class="responsive-img"> <!-- random image -->
+                <div class="caption left-align">
+                    <h5 class="light grey-text text-lighten-3">It's a little bit complicated than others</h5>
+                </div>
+            </li>
+            <li>
+                <img src="grid-2.png" class="responsive-img"> <!-- random image -->
+                <div class="caption center-align">
+                    <h5 class="light black-text text-lighten-3">Still, Im enjoying it.</h5>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+        </div><!--CONTAINER-->
+            
+            
+        
+        
+        <br><br><br><br><br>
+        
+        </div><!--page-->
+        <div class="divider"></div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col l4 s12">
+            <h5>Help Materialize Grow</h5>
+            <p class="grey-text text-darken-2">We hope you have enjoyed using Materialize and if you feel like it has helped you out and want to support the team you can help us by donating or backing us on Patreon. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+            <a href="/support-us.html" class="waves-effect waves-light btn ">SUPPORT US</a>
+            </div>
+            
+            <div class="col l4 s12">
+            <h5>Join the Discussion</h5>
+            <p class="grey-text text-darken-2">We have a Gitter chat room set up where you can talk directly with us. Come in and discuss new features, future goals, general problems or questions, or anything else you can think of.</p>
+            
+            <a href="https://gitter.im/Dogfalo/materialize" class="waves-effect waves-light btn">CHAT</a>
+            </div>
+            <div class="col l4 s12" style="overflow: hidden;">
+            <h5>Connect</h5>
+            <iframe src="https://ghbtns.com/github-btn.html?user=dogfalo&amp;repo=materialize&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+            <br>
+            <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 190px; height: 28px;" title="Twitter Follow Button" src="https://platform.twitter.com/widgets/follow_button.d37472b4a6622d0b1fff46ad904f6896.en.html#dnt=true&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=MaterializeCSS&amp;show_count=false&amp;show_screen_name=true&amp;size=l&amp;time=1698553583700" data-screen-name="MaterializeCSS"></iframe>
+            </div>
+        </div>
+    </div> 
+    <div style="height: 10vh;"></div>
+    </div><!--proj-->
+    <div id="digital-clock" class="digital-clock"></div>
+    <footer class="footer">
+        <div class="container ">
+            <p>&copy; 2023 LOTERTE,JHON WHENCY. All rights reserved.</p>
+        </div>
+    </footer>
+    <!--JAVA SCRIPTS-->
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+    $(document).ready(function(){//start
+    $('.sidenav').sidenav({
+        edge: 'right',
+        draggable: true,
+    });
+
+    $(document).ready(function(){
+    $('.slider').slider();
+    });
+
+    function updateClock() {
+            var now = new Date();
+            var hours = now.getHours().toString().padStart(2, '0');
+            var minutes = now.getMinutes().toString().padStart(2, '0');
+            var seconds = now.getSeconds().toString().padStart(2, '0');
+            var timeString = hours + ':' + minutes + ':' + seconds;
+            document.getElementById('digital-clock').textContent = timeString;
+        }
+        setInterval(updateClock, 1000); // Update every second
+
+        $('.modal').modal();
+        //1st modal
+        $('#myCard1').click(function(){
+            $('#myModal1').modal('open');
+        });
+        //2nd modal
+        $('#myCard2').click(function(){
+            $('#myModal2').modal('open');
+        });
+        //3rd modal
+        $('#myCard3').click(function(){
+            $('#myModal3').modal('open');
+        });
+        //4th modal
+        $('#myCard4').click(function(){
+            $('#myModal4').modal('open');
+        });
+        //5th modal
+        $('#myCard5').click(function(){
+            $('#myModal5').modal('open');
+        });
+        //6th modal
+        $('#myCard6').click(function(){
+            $('#myModal6').modal('open');
+        });
+
+        $('.tabs').tabs();
+
+        //fixed-action-btn init
+        $('.fixed-action-btn').floatingActionButton({  
+            hoverEnabled : false,
+            toolbarEnabled: true
+        });
+        });//end
+    </script>
+    <script>
+        // Get all slide items
+        const slides = document.querySelectorAll('.slides li');
+
+        // Add click event listener to each slide item
+        slides.forEach(slide => {
+            slide.addEventListener('click', function() {
+                // Toggle the class to expand/collapse the clicked slide content
+                const slideContent = slide.querySelector('.slide-content');
+                slideContent.classList.toggle('expanded-content');
+
+                // Collapse other slides by removing the class from their content
+                slides.forEach(otherSlide => {
+                    if (otherSlide !== slide) {
+                        const otherSlideContent = otherSlide.querySelector('.slide-content');
+                        otherSlideContent.classList.remove('expanded-content');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
